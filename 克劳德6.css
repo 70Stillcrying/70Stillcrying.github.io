@@ -1,0 +1,124 @@
+/* 设置页面整体样式 */
+body {
+    font-family: Arial, sans-serif; /* 字体设置 */
+    margin: 0; /* 去除默认边距 */
+    padding: 0; /* 去除默认内边距 */
+    display: flex; /* 使用弹性布局 */
+    flex-direction: column; /* 布局方向为垂直 */
+    min-height: 100vh; /* 确保页面高度至少占满一屏 */
+    background-color: #fffefa; /* 背景颜色设置 */
+}
+
+/* 设置容器的样式 */
+.container {
+    display: flex; /* 使用弹性布局 */
+    flex-direction: column; /* 布局方向为垂直 */
+    justify-content: space-between; /* 子元素在主轴上均匀分布 */
+    flex: 1; /* 弹性元素，占据剩余空间 */
+}
+
+/* 设置头部样式 */
+header {
+    display: flex; /* 使用弹性布局 */
+    justify-content: space-between; /* 子元素在主轴上间隔分布 */
+    padding: 25px 60px; /* 内边距设置 */
+    background-color: #fffefa; /* 背景颜色设置 */
+    border-bottom: 1px solid #fffefa; /* 添加底部边框 */
+}
+
+/* 设置logo样式 */
+.logo {
+    font-weight: bold; /* 加粗字体 */
+    font-size: 24px; /* 字号设置为24px */
+    text-decoration: none; /* 去除下划线 */
+    color: #000000; /* 链接颜色设置为黑色 */
+}
+
+/* 设置导航链接样式 */
+nav a {
+    margin-left: 40px; /* 左侧边距设置 */
+    text-decoration: none; /* 去除下划线 */
+    color: #000; /* 链接颜色设置为黑色 */
+    font-size: 16px; /* 字号设置为16px */
+}
+
+/* 设置主体样式 */
+main {
+    text-align: center; /* 文本居中对齐 */
+    padding: 80px 20px; /* 内边距设置 */
+    flex: 1; /* 弹性元素，占据剩余空间 */
+    margin-bottom: 100px; /* 底部边距设置 */
+}
+
+/* 设置h1标题样式 */
+h1 {
+    font-size: 80px; /* 字号设置为80px */
+    margin-bottom: 1px; /* 底部边距设置 */
+}
+
+/* 设置段落样式 */
+p {
+    font-size: 24px; /* 字号设置为24px */
+    margin-bottom: 40px; /* 底部边距设置 */
+    line-height: 0; /* 设置行高为0 */
+}
+
+/* 设置按钮样式 */
+button {
+    background-color: #000000; /* 背景颜色设置为黑色 */
+    color: #fff; /* 文本颜色设置为白色 */
+    border: none; /* 去除边框 */
+    border-radius: 10px; /* 设置圆角 */
+    padding: 20px 40px; /* 内边距设置 */
+    font-size: 16px; /* 字号设置为16px */
+    cursor: pointer; /* 鼠标指针设置为手型 */
+}
+
+/* 鼠标悬停在按钮上时的样式 */
+button:hover {
+    background-color: #555555; /* 鼠标悬停时的背景颜色 */
+}
+
+/* 设置底部样式 */
+footer {
+    background-color: #151515; /* 背景颜色设置为黑色 */
+    color: #a8a8a8; /* 文本颜色设置 */
+    padding: 20px 100px; /* 内边距设置 */
+    text-align: center; /* 文本居中对齐 */
+}
+
+/* 设置底部链接样式 */
+.footer-links {
+    display: flex; /* 使用弹性布局 */
+    justify-content: space-around; /* 子元素在主轴上均匀分布 */
+    margin-bottom: 100px; /* 底部边距设置 */
+}
+
+/* 设置底部链接区域样式 */
+.footer-links div {
+    text-align: left; /* 文本左对齐 */
+}
+
+/* 设置底部链接标题样式 */
+.footer-links h4 {
+    margin-bottom: 20px; /* 底部边距设置 */
+}
+
+/* 设置底部链接样式 */
+.footer-links a {
+    display: block; /* 链接以块级元素显示 */
+    color: #a8a8a8; /* 链接颜色设置 */
+    text-decoration: none; /* 去除下划线 */
+    margin-bottom: 20px; /* 底部边距设置 */
+}
+
+/* 设置底部版权信息样式 */
+.footer-bottom {
+    border-top: 1px solid #444; /* 添加顶部边框 */
+    padding-top: 10px; /* 顶部边距设置 */
+}
+
+/* 对鼠标悬停在链接上的样式进行定义 */
+.footer-links a:hover {
+    color: white /* 链接在悬停状态下文字颜色变为白色 */
+}
